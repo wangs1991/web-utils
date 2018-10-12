@@ -1,0 +1,29 @@
+{
+  "name": "weber-utils",
+  "version": "1.0.3",
+  "description": "网站工具类方法集合",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "网站开发",
+    "工具类",
+    "web-develope",
+    "html5",
+    "JavaScript"
+  ],
+  "author": "wangshuai4410 <vonshine740@163.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}

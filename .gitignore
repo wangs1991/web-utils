@@ -1,0 +1,5 @@
+.idea/
+/node_modules
+
+/examples/.idea/
+/examples/node_modules
