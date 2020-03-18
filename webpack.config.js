@@ -12,12 +12,12 @@ module.exports = {
     },
     output: {
         filename: "[name].min.js",
-        path: path.resolve(__dirname, 'examples/dist'),
+        path: path.resolve(__dirname, 'dist'),
         library: 'Utils',
         libraryTarget: 'this'
     },
     plugins: [
-        new CleanWebpackPlugin(['dist', 'examples/dist']),
+        new CleanWebpackPlugin(['dist', 'dist']),
         new UglifyJSPlugin({
             sourceMap: true
         }),

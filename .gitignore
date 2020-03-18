@@ -1,5 +1,9 @@
 .idea/
 /node_modules
 
-/examples/.idea/
+/examples
 /examples/node_modules
+/examples/dist
+.DS_Store
+**/.DS_Store
+/dist/
